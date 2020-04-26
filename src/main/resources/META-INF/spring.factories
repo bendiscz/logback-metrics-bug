@@ -1,0 +1,3 @@
+# removing this auto configuration fixes the application startup
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cz.bendis.example.logbackmetricsbug.lib.AdditionalLogbackMetricsAutoConfiguration
